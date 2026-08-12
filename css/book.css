@@ -28,6 +28,10 @@
     border-right: none;
 }
 
+.menu > li:last-child {
+    margin-left: auto;
+}
+
 .menu > li {
     border-right: 1px solid darkblue;
 }
@@ -107,4 +111,21 @@ footer > span {
     to {
          left: 100%;
     }
+}
+
+/* CSS BUTTON*/
+.btn{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.btn-succes {
+    background-color: lightgray;
+    border-color: gray;
+}
+
+.btn-info{
+    background-color: skyblue;
+    border-color: blue;
 }
